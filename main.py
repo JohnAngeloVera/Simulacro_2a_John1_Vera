@@ -6,5 +6,9 @@ def operation_numbers(num1: int, num2: int) -> None:
     div_nums = num1 / num2 if num2 != 0 else 0
     print(f"{add_nums}\n{sub_nums}\n{mul_nums}\n{div_nums}")
 
-
+if __name__ == "__main__":
+    # Prueba ejercicio
+    operation_numbers(4,3)
+    # Prueba caso límite
+    operation_numbers(2,0)
 

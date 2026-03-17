@@ -7,7 +7,9 @@ def operation_numbers(num1: int, num2: int) -> None:
     print(f"{add_nums}\n{sub_nums}\n{mul_nums}\n{div_nums}")
 
 if __name__ == "__main__":
-    # Prueba ejercicio
+    # Prueba ejemplo propuesto
+    operation_numbers(4,3)
+    # Prueba ejemplo inventado
     operation_numbers(4,3)
     # Prueba caso límite
     operation_numbers(2,0)

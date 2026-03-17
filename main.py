@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # Prueba ejemplo propuesto
     operation_numbers(4,3)
     # Prueba ejemplo inventado
-    operation_numbers(4,3)
+    operation_numbers(80,20)
     # Prueba caso límite
     operation_numbers(2,0)
 
